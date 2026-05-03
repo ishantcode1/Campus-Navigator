@@ -1,0 +1,58 @@
+name: campus_navigator
+
+description: "College Campus Navigation App."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  flutter_map: ^6.1.0
+
+  latlong2: ^0.9.0
+
+  geolocator: ^10.1.0
+
+  firebase_core: ^2.30.0
+
+  cloud_firestore: ^4.17.0
+
+  http: ^1.2.1
+
+  flutter_map_marker_cluster: ^1.3.6
+
+  flutter_launcher_icons: ^0.13.1
+
+dev_dependencies:
+
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/logo.png
+
+# 🚀 APP ICON CONFIG
+flutter_launcher_icons:
+
+  android: true
+
+  ios: true
+
+  image_path: "assets/logo.png"
+
+  min_sdk_android: 21
